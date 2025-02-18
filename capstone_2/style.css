@@ -1,0 +1,99 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Profile Image */
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    margin-top: 20px;
+}
+
+/* Skill Section */
+#skills p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Ice Cream Section */
+#ice-cream img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ice-cream p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Contact Section */
+#contact a {
+    color: #3498db;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
